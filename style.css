@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300;600&display=swap');
+@import url(./styles/sessao1.css);
+@import url(./styles/header.css);
+@import url(./styles/sessao2.css);
+
+:root {
+    
+    /* CORES */
+    --cor-fundo: #f1eeee;
+    --cor-fundo2: #9BF4B1;
+    --cor-verde-forte: #032110;
+    --cor-verde-logo: #729409;
+
+    /* FONTES */
+    --fonte: 'Asap Condensed', sans-serif;
+}
+
+.body {
+    font-family: var(--fonte);
+    font-size: 1rem;
+    font-weight: 400;
+}

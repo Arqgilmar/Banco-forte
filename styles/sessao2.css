@@ -1,0 +1,25 @@
+.sessao2 {
+    background-color: var(--cor-fundo);
+    display: flex;
+    font-family: var(--fonte);
+}
+
+.sessao2__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.sessao2__titulo {
+    font-size: 2rem;
+}
+
+.sessao2__texto {
+    font-size: 1.5rem;
+}
+
+.sessao2__img {
+    width: 70%;
+}

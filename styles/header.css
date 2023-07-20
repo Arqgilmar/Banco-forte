@@ -1,0 +1,18 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    background-color: var(--cor-fundo);
+    padding-left: 3%;
+}
+
+.cabecalho_img {
+    width: 5%;
+}
+
+.cabecalho_botoes {
+    text-decoration: none;
+    color: var(--cor-verde-forte);
+    font-family: var(--fonte);
+}
