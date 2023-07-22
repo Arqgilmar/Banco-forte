@@ -1,21 +1,25 @@
 .sessao1 {
-    display: flex;
-    flex-direction: row;
     background-color: var(--cor-fundo2);
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .sessao1__cartao {
-    margin-top: 10rem;
-    width: 90%;
+    width: 700px;
+    margin-top: 30%;
+    
 }
 
-.sessao1__registro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.sessao1__caixa {
+    background-color: var(--cor-fundo);
+    display: grid;
+    border-radius: 12px;
+    margin: 5% 20%;
+    padding: 2%;
+    justify-items: center;
     gap: 2rem;
-    margin: 2rem;
 }
 
 .sessao1__texto {
@@ -33,7 +37,6 @@
     background-color: var(--cor-verde-logo);
     padding: 1rem 2rem;
     color: var(--cor-fundo);
-    margin-bottom: 10%;
 }
 
 .sessao1__botao:hover {
@@ -45,9 +48,9 @@
 .sessao1__cpf {
     text-align: center;
     border-radius: 12px;
-    border: none;
+    border: 2px solid var(--cor-verde-logo);
     background-color: var(--cor-fundo);
-    width: 40%;
+    width: 60%;
     height: 2rem;
 }
 

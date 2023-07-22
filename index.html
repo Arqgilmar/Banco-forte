@@ -15,11 +15,13 @@
         <a class="cabecalho_botoes" href="#">Perguntas</a>
     </header>
     <section class="sessao1">
-        <div class="sessao1__registro">
+        <div>
             <img class="sessao1__cartao" src="./imagens/cartão.png" alt="Imagem do cartão">
-            <p class="sessao1__texto">Cartão de crédito com anuidade zero. Facilidade e agilidade para você.</p>
-            <input class="sessao1__cpf" type="cpf" placeholder="DIGITE SEU CPF">
-            <a class="sessao1__botao" href="#">Continuar</a>
+            <div class="sessao1__caixa">
+                <p class="sessao1__texto">Cartão de crédito com anuidade zero. Facilidade e agilidade para você.</p>
+                <input class="sessao1__cpf" type="cpf" placeholder="DIGITE SEU CPF">
+                <a class="sessao1__botao" href="#">Continuar</a>
+            </div>
         </div>
         <img class="mulher" src="./imagens/mulher certa.png" alt="mulher feliz">
     </section>
@@ -41,44 +43,51 @@
             <img class="sessao3__img" src="./imagens/celular.png" alt="celular">
         </div>
     </section>
-    <footer>
-        <div>
-            <div>
-                <h5>Banco Forte</h5>
-                <a href="#">Sobre nós</a>
-                <a href="#">Perguntas frequentes</a>
-                <a href="#">Contato</a>
-                <a href="#">Investidores</a>
+    <footer class="rodape">
+        <div class="rodape__links">
+            <div class="rodape__lista">
+                <h5 class="rodape__titulo">Banco Forte</h5>
+                <a class="rodape__ancoras" href="#">Sobre nós</a>
+                <a class="rodape__ancoras" href="#">Perguntas frequentes</a>
+                <a class="rodape__ancoras" href="#">Contato</a>
+                <a class="rodape__ancoras" href="#">Investidores</a>
             </div>
-            <div>
-                <h5>Produtos</h5>
-                <a href="#">Conta digital</a>
-                <a href="#">Cartão de crédito</a>
-                <a href="#">Conta PJ</a>
-                <a href="#">Empréstimo</a>
+            <div class="rodape__lista">
+                <h5 class="rodape__titulo">Produtos</h5>
+                <a class="rodape__ancoras" href="#">Conta digital</a>
+                <a class="rodape__ancoras" href="#">Cartão de crédito</a>
+                <a class="rodape__ancoras" href="#">Conta PJ</a>
+                <a class="rodape__ancoras" href="#">Empréstimo</a>
             </div>
-            <div>
-                <h5>Explore</h5>
-                <a href="#">Comunidade</a>
-                <a href="#">Blog</a>
-                <a href="#">Tudo sobre o Pix</a>
-                <a href="#">Auxílio emergencial e FGTS</a>
+            <div class="rodape__lista">
+                <h5 class="rodape__titulo">Explore</h5>
+                <a class="rodape__ancoras" href="#">Comunidade</a>
+                <a class="rodape__ancoras" href="#">Blog</a>
+                <a class="rodape__ancoras" href="#">Tudo sobre o Pix</a>
+                <a class="rodape__ancoras" href="#">Auxílio emergencial e FGTS</a>
             </div>
-            <div>
-                <h5>Transparência</h5>
-                <a href="#">Política de privacidade</a>
-                <a href="#">Política de segurança</a>
-                <a href="#">Contratos</a>
-                <a href="#">Relatórios financeiros</a>
+            <div class="rodape__lista">
+                <h5 class="rodape__titulo">Transparência</h5>
+                <a class="rodape__ancoras" href="#">Política de privacidade</a>
+                <a class="rodape__ancoras" href="#">Política de segurança</a>
+                <a class="rodape__ancoras" href="#">Contratos</a>
+                <a class="rodape__ancoras" href="#">Relatórios financeiros</a>
             </div>
         </div>
-        <div>
-            <img src="./imagens/logo.png" alt="Logo do banco">
-            <h3>© 2023 Banco Forte Pagamentos S.A - Instituição de Pagamento. 00.000.000/0000-00</h3>
-            <h3>São Paulo, SP - 00000-000</h3>
-            <h4>Baixe o app</h4>
-            <img src="./imagens/android.png" alt="imagem android">
-            <img src="./imagens/app store.png" alt="imagem app store">
+
+        <hr>
+
+        <div class="rodape__info">
+            <img class="rodape__img" src="./imagens/logo.png" alt="Logo do banco">
+            <div>
+                <h3 class="rodape__info__texto">© 2023 Banco Forte Pagamentos S.A - Instituição de Pagamento. 00.000.000/0000-00</h3>
+                <h3 class="rodape__info__texto">São Paulo, SP - 00000-000</h3>
+            </div>
+            <div class="rodape__info__container">   
+                <h4>Baixe o app:</h4>
+                <img class="rodape__img__so" src="./imagens/android.png" alt="imagem android">
+                <img class="rodape__img__so" src="./imagens/app store.png" alt="imagem app store">
+            </div> 
         </div>
     </footer>
 </body>
